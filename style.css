@@ -73,3 +73,31 @@ html > body {
 }
 
 /* SUMMARY SECTION */
+.summary {
+  padding: 1em;
+}
+
+.stat-card {
+  display: grid;
+  grid-template-columns: 12% 1fr auto;
+  padding: 1em;
+  background-color: var(--pale-blue);
+  border-radius: 0.5em;
+  margin: 1em;
+}
+
+.red > p:first-of-type {
+  color: var(--light-red);
+}
+
+.yellow > p:first-of-type {
+  color: var(--orangey-yellow);
+}
+
+.green > p:first-of-type {
+  color: var(--green-teal);
+}
+
+.cobalt > p:first-of-type {
+  color: var(--cobalt-blue);
+}
